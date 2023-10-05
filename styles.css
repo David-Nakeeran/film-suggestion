@@ -9,6 +9,33 @@ body {
 }
 
 /* Typography */
-
+h1, h2 {
+    color: whitesmoke;
+    text-align: center;
+}
 /* Layout */
 
+header {
+    background-color: #414a4c;;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;;
+    width: 500px;
+    padding: 20px 0;
+}
+
+.genre-radio {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+}
+
+.radio {
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+}
