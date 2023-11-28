@@ -16,10 +16,26 @@
     <main>
         <section>
             <h2>Pick your favourite genre to be recommend a film!</h2>
-            <div class="container">
-
+            <div class="main-container">
+                <div class="radio-container">
+                    
+                </div>
+                <div class="checkbox-container">
+                    <label for="bluray-check">Tick for films only in blu-ray</label>
+                    <input type="checkbox" id="bluray-check">
+                </div>
+                <div class="btn-container">
+                    <button id="choose-btn">Pick me a film</button>
+                </div>
             </div>
         </section>
     </main>
+    <div id="modal-bg">
+        <div class="modal-container" id="modal-container">
+            <button class="modal-close-btn" id="modal-close-btn">X</button>
+            <div id="modal-inner">
+            </div>
+        </div>
+    </div>
 </body>
 </html>

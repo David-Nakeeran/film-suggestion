@@ -2,23 +2,29 @@
 
 export const filmGenres = 
 [
-    {genre: "Horror",
+    {genre: ["Horror", "Science Fiction"],
     films: 
-    ['Hellraiser', 'Alien', 'Evil dead'] },
+    ['Hellraiser', 'Alien', 'Evil dead'],
+    isBluRay: true, },
 
-    {genre: "Science Fiction",
+    {genre: ["Science Fiction", "Action"],
     films: 
-    ['Gravity', 'Avatar', 'Matrix'] },
+    ['Gravity', 'Avatar', 'Matrix'],
+    isBluRay: false, },
 
-    {genre: "Action",
+    {genre: ["Action"],
     films: 
-    ['Nobody', 'Peppermint', 'Expendables'] },
+    ['Nobody', 'Peppermint', 'Expendables'],
+    isBluRay: false, },
 
-    {genre: "Comedy",
+    {genre: ["Comedy", "Action"],
     films: 
-    ['Central Intelligence', 'Cocaine Bear', 'Tropic Thunder'] },
+    ['Central Intelligence', 'Cocaine Bear', 'Tropic Thunder'],
+    isBluRay: true, },
 
-    {genre: "Romance",
+    {genre: ["Romance"],
     films: 
-    ['The Age of Adaline', 'Safe Haven', 'About Time'] },
+    ['The Age of Adaline', 'Safe Haven', 'About Time'],
+    isBluRay: false, },
 ];
+
